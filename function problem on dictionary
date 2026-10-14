@@ -1,0 +1,6 @@
+def update(d):
+    d["score"]=100          #updates the value of score to 100
+
+marks = {'score':70}
+update(marks)
+print(marks['score'])
